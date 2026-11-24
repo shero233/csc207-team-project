@@ -1,3 +1,4 @@
+
 package use_case.report_food_event;
 
 import entity.Report;
@@ -64,4 +65,3 @@ public class ReportFoodEventInteractor implements ReportFoodEventInputBoundary {
         reportPresenter.prepareSuccessView(outputData);
     }
 }
-

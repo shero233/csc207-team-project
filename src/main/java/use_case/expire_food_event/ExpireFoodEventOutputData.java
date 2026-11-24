@@ -1,17 +1,7 @@
 package use_case.expire_food_event;
 
 /**
- * Stores the output data for the expire food event use case.
+ * Stores the output data for expiring food events.
  */
 public class ExpireFoodEventOutputData {
-
-    private final int expiredCount;
-
-    public ExpireFoodEventOutputData(int expiredCount) {
-        this.expiredCount = expiredCount;
-    }
-
-    public int getExpiredCount() {
-        return expiredCount;
-    }
 }
